@@ -1,9 +1,9 @@
 # OpenclassroomsProject
 tutorielGitHubJour1
 # 🌐 Projet OpenClassrooms
-#Préparation à mon entrée en contrat de professionnalisation à l'école la Plateforme Marseille le 16/06/2025 pour devenir un Développeur Web & Mobile au cours d'une formation en alternance de 16 mois trés intensive débouchant sur une qualification Certification
+#'Préparation à mon entrée en contrat de professionnalisation à l'école la Plateforme Marseille le 16/06/2025 pour devenir un Développeur Web & Mobile au cours d'une formation en alternance de 16 mois trés intensive débouchant sur une qualification Certification
 RNCP Niv 5 – 31114
-eq. BAC+2 
+eq. BAC+2 '
 #Objectif : Apprendre à créer mon premier Portfolio Développeur Web & Mobile.
 
 Bienvenue sur ce projet développé dans le cadre de ma formation et de ma pratique professionnelle.
@@ -16,7 +16,7 @@ Je suis **Nicolas**, apprenti développeur Web & Mobile passionné par le design
 
 ## 🚀 Technologies utilisées
 - Git & GitHub
-- Bash
+- 'Bash'
 - HTML5 / CSS3
 
 ## 📱 Objectif du projet
