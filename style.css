@@ -1,1 +1,46 @@
-body { background-color: lightblue; font-family: Arial, sans-serif; text-align: center; }
+body {
+  background-color: rgb(94, 94, 255); /* Bleu de fond */
+  font-family: Poppins, sans-serif; /* Police Poppins */
+  margin: 0; /* Supprime l'espace blanc par défaut autour du body */
+  display: flex; /* Utilise Flexbox pour l'agencement */
+  flex-direction: column; /* Organise verticalement : d'abord le menu, ensuite le cercle */
+  align-items: center; /* Centre horizontalement tous les enfants du body */
+}
+.menu {
+  width: 100%; /* Le menu occupe toute la largeur de l'écran */
+  text-align: center; /* Centre le texte à l’intérieur */
+  padding: 20px 0; /* Espace autour du menu haut et bas */
+}
+
+.menu ul {
+  list-style: none; /* Supprime les puces de la liste */
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  display: inline-block; /* Affiche les éléments du menu côte à côte */
+  margin: 0 15px; /* Espace horizontal entre chaque lien */
+}
+
+.menu a {
+  color: white; /* Couleur du texte des liens */
+  text-decoration: none; /* Supprime le soulignement par défaut */
+  font-weight: bold; /* Rend le texte plus épais */
+  font-size: 18px; /* Taille du texte */
+}
+
+.blanc {
+  background-color: #fff; /* Fond blanc */
+  height: 50vh; /* Hauteur = 50% de la hauteur de l'écran */
+  width: 200vh; /* Largeur = 200% de la hauteur de l'écran */
+  border-radius: 50%; /* Rend la forme ovale (ou circulaire si même largeur/hauteur) */
+  display: flex; /* Flexbox pour centrer le texte à l’intérieur */
+  justify-content: center; /* Centre horizontalement le contenu (h1) */
+  align-items: center; /* Centre verticalement le contenu */
+  margin-top: 40px; /* Espace entre le menu et le cercle */
+}
+h1 {
+  color: rgb(94, 94, 255); /* Couleur du texte (identique au fond de body) */
+  text-transform: uppercase; /* Met le texte en majuscules automatiquement */
+}
